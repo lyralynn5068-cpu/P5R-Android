@@ -1,4 +1,24 @@
-# Persona 5 Royal for Android (native port)
+# Persona 5 Royal for Android Plus
+
+An enhanced community-driven fork of "P5R-Android" (https://github.com/Brandon04Gonzalez/p5r-android), originally created by Brandon04Gonzalez.
+
+This project builds upon the original Android port, preserving its core architecture and functionality while introducing additional improvements focused on controller customization, input configuration, usability, and broader Android device compatibility.
+
+Project goals
+
+- Advanced Gamepad Customization: Expand physical controller configuration with button remapping and customizable input behavior.
+- Launcher Improvements: Refine configuration management and the overall user experience.
+- Upstream Compatibility: Preserve the original project's foundations and acknowledge the work of its original contributors.
+
+Credits and acknowledgements
+
+This project is a community fork of "Brandon04Gonzalez/p5r-android" (https://github.com/Brandon04Gonzalez/p5r-android).
+
+All original work, architecture, and contributions remain credited to their respective authors. This fork aims to extend the project through independent development while respecting the original MIT license.
+
+Original developer: "Brandon04Gonzalez" (https://github.com/Brandon04Gonzalez)
+
+Original repository: https://github.com/Brandon04Gonzalez/p5r-android
 
 An Android app that runs **your own copy** of Persona 5 Royal (Nintendo Switch, version 1.0.0) natively on an arm64
 phone or tablet. The Switch's operating system services, its audio, video and input, and NVN (the Switch's graphics
