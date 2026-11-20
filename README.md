@@ -1,4 +1,4 @@
-# Persona 5 Royal for Android Plus
+# Persona 5 Royal Android Plus
 
 An enhanced community-driven fork of "P5R-Android" (https://github.com/Brandon04Gonzalez/p5r-android), originally created by Brandon04Gonzalez.
 
