@@ -6,11 +6,10 @@
 // X (action) around it; ZR (roll), R, L, + and - along the top. The left half is the stick (platform_android_input.cpp):
 // it appears where the thumb lands, and pushed nearly all the way it also holds Y, so running needs no second thumb.
 //
-// Persona 5 Royal, landscape: the four face buttons in the Switch diamond at the bottom right (A confirm/talk, B back,
-// X menu, Y), L / ZL and R / ZR stacked in the top corners, - and + at the top centre, the d-pad on the left above
-// the stick, with a gap (the d-pad's down arrow touched the stick's ring). The left half is the stick; the rest of
-// the right half drags the right stick (the camera). The launcher's editor (games/p5r/java: ControlsEditor.java, which
-// has a copy of this table) moves any of them, the stick's ring included (NX_TOUCH_LAYOUT).
+// Persona 5 Royal, landscape: Fluid Touch Alpha 1 keeps the existing Switch-button mapping and input paths, but
+// gives the face-button diamond larger targets and a little more separation for thumbs. L / ZL and R / ZR remain
+// stacked in the top corners; - and + stay at the top centre; the d-pad stays above the left stick. The rest of
+// the right half drags the right stick (the camera). The launcher editor can still move and resize every control.
 //
 // Games without a layout here keep their own touch handling (Hades: zones around the thumb).
 //
@@ -51,20 +50,20 @@ const Named kWonder[] = {
 };
 
 const Named kP5R[] = {
-    {"A", {0.940f, 0.66f, 0.068f, kA, touch_label(kGlyphA)}},
-    {"B", {0.875f, 0.80f, 0.068f, kB, touch_label(kGlyphB)}},
-    {"X", {0.875f, 0.52f, 0.068f, kX, touch_label(kGlyphX)}},
-    {"Y", {0.810f, 0.66f, 0.068f, kY, touch_label(kGlyphY)}},
+    {"A", {0.935f, 0.67f, 0.075f, kA, touch_label(kGlyphA)}},
+    {"B", {0.865f, 0.82f, 0.075f, kB, touch_label(kGlyphB)}},
+    {"X", {0.865f, 0.52f, 0.075f, kX, touch_label(kGlyphX)}},
+    {"Y", {0.795f, 0.67f, 0.075f, kY, touch_label(kGlyphY)}},
     {"R", {0.945f, 0.08f, 0.052f, kR, touch_label(kGlyphR)}},
     {"ZR", {0.945f, 0.24f, 0.052f, kZR, touch_label(kGlyphZ, kGlyphR)}},
     {"L", {0.055f, 0.08f, 0.052f, kL, touch_label(kGlyphL)}},
     {"ZL", {0.055f, 0.24f, 0.052f, kZL, touch_label(kGlyphZ, kGlyphL)}},
     {"MINUS", {0.440f, 0.07f, 0.045f, kMinus, touch_label(kGlyphMinus)}},
     {"PLUS", {0.560f, 0.07f, 0.045f, kPlus, touch_label(kGlyphPlus)}},
-    {"UP", {0.135f, 0.31f, 0.048f, kUp, touch_label(kGlyphUp)}},
-    {"DOWN", {0.135f, 0.49f, 0.048f, kDown, touch_label(kGlyphDown)}},
-    {"LEFT", {0.085f, 0.40f, 0.048f, kLeft, touch_label(kGlyphLeft)}},
-    {"RIGHT", {0.185f, 0.40f, 0.048f, kRight, touch_label(kGlyphRight)}},
+    {"UP", {0.135f, 0.31f, 0.052f, kUp, touch_label(kGlyphUp)}},
+    {"DOWN", {0.135f, 0.49f, 0.052f, kDown, touch_label(kGlyphDown)}},
+    {"LEFT", {0.085f, 0.40f, 0.052f, kLeft, touch_label(kGlyphLeft)}},
+    {"RIGHT", {0.185f, 0.40f, 0.052f, kRight, touch_label(kGlyphRight)}},
     {"L3", {0.055f, 0.58f, 0.046f, kStickL, touch_label(kGlyphL, kGlyph3)}},
     {"R3", {0.740f, 0.82f, 0.046f, kStickR, touch_label(kGlyphR, kGlyph3)}},
 };
