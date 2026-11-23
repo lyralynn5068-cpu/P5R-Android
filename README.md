@@ -33,6 +33,7 @@ The app includes the following configuration options:
 
 - **Game settings:** text language, resolution (360p, 480p, 720p, or 1080p), interface resolution, graphics (texture detail), frame rate cap (30, or 60 experimental), shadows, FPS counter, **Fullscreen (stretch)**, **Crowd NPCs** (toggle off to boost FPS in busy areas like Shibuya), and **Post-processing / Bloom** (toggle off for lighter GPU load).
 - **Touch controls:** show or hide controls, adjust size and opacity, configure L3/R3 buttons, customize the touch layout using the built-in editor, and adjust touch stick and camera sensitivity (50% to 250%).
+- **Fluid Touch Alpha 1:** the P5R face-button diamond and d-pad use slightly larger touch targets for easier thumb input. Existing button mappings, virtual-stick behavior, camera drag, and layout-editor compatibility are preserved. Scene-aware dungeon/social/battle profiles are not included yet; the current P5R layout remains static.
 - **Physical gamepad:** Nintendo vs Xbox/Android A/B and X/Y button layout, plus configurable button mappings.
 - **Launcher customization:** a redesigned landscape interface inspired by Persona 5 Royal's visual identity, with dedicated sections for Play, Display, Performance, Controls, Files and Credits. The launcher includes animated backgrounds, custom background selection, background dimming, halftone effects and gyro-based parallax on the default background.
 - **Launcher feedback:** configurable launcher sounds and haptic feedback.
